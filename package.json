@@ -1,7 +1,8 @@
 {
-  "name": "yeet-money-contract",
+  "name": "yeet-money",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "yarn hardhat compile",
+    "test": "yarn hardhat test --network hardhat"
   },
   "engines": {
     "node": "16"
